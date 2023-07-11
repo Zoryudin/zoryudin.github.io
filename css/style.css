@@ -271,8 +271,8 @@ p{
     .bg-foto{
         width: 430px;
         height: 470px;
-        margin-right: -10%;
-        margin-left: -10%;
+        margin-right: -1%;
+        margin-left: 10%;
         top: 14%;
     }
     .kerjaan{
@@ -289,11 +289,11 @@ p{
     }
 
     .isi-2{
-        left: 8%;
+        left: -2%;
     }
 
     .isi-2 img{
-        width: 150%;
+        width: 200%;
         
     }
 
@@ -322,4 +322,21 @@ p{
     }
 
     
+}
+
+@media (max-width: 2560px){
+    .img1{
+        margin-top: 6%;
+        margin-left: 15%;
+    }
+
+    .img2{
+        margin-top: 6%;
+        margin-left: 35%;
+    }
+
+    .img3{
+        margin-top: 6%;
+        margin-left: 55%;
+    }
 }
